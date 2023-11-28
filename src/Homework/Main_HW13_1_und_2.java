@@ -12,8 +12,6 @@ public class Main_HW13_1_und_2 {
      */
     public static void main(String[] args) {
         String[] fruits = new String[]{"Orange", "Apple", "Banana", "Mango"};
-        //System.out.println(fruits[0]);
-
 
        for ( int i = 0 ; i < 4; i++ ){
             System.out.println(fruits[i]);
