@@ -43,12 +43,5 @@ public class Main_HW13_1_und_2 {
 
         }
 
-
-
-
-
-
-
-
     }
 }
