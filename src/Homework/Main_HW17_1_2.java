@@ -88,7 +88,7 @@ public static String removeCharAtIndex( String str, int index) -> "Helo"
     public static String removeCharAtIndex(String str, int index) {
 
         return str.substring(0,index) + str.substring(index+1);
-        // return str.substring(0,index) + '*' + str.substring(index+1); тут вместо символа вставили звездочку
+        // return str.substring(0,index) + '*' + str.substring(index+1); тут вместо символа вставили звездочку.
 
     }
 
