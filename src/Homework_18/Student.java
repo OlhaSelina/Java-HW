@@ -10,7 +10,7 @@ public class Student {
         this.age = age;
 
     }
-    public void List(){
+    public void list(){
         System.out.println("Student " + name + " - " + age + " years." );
     }
 

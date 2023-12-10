@@ -10,10 +10,10 @@ public class Main {
          */
 
         Student student1 = new Student("Vasiliy", 27 );
-        student1.List();
+        student1.list();
 
         Student student2 = new Student("John", 45);
-        student2.List();
+        student2.list();
 
 
         /*
