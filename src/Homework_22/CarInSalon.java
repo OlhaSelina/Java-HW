@@ -11,6 +11,7 @@ public class CarInSalon {
 
     public void findCar(String carToFind) {
 
+        /* - 1 variant
         for (int i = 0; i < salon.length; i++) {
 
             if (salon[i].equalsIgnoreCase(carToFind)) {
@@ -18,6 +19,12 @@ public class CarInSalon {
                 return;
             }
 
+        } */
+        for(String car: salon){  // 2 variant
+            if (car.equalsIgnoreCase(carToFind)) {
+                System.out.println(" This car is available");
+                return;
+            }
         }
 
         System.out.println("This car is not available ");
