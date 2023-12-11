@@ -1,4 +1,4 @@
-package Homwork_22;
+package Homework_22;
 
 public class CarInSalon {
 

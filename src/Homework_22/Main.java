@@ -1,6 +1,4 @@
-package Homwork_22;
-
-import java.util.concurrent.Callable;
+package Homework_22;
 
 public class Main {
 
