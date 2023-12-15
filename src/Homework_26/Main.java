@@ -19,7 +19,15 @@ public class Main {
 
         for(Shape s: shapes){
             System.out.println(s.getName() + "has area of " + s.findArea());
+            System.out.println();
         }
+
+        /* в таком виде не распечатает нормально с методом toString ( он относится к классу Object),
+        for(Shape s: shapes){
+            System.out.println(s);
+        }
+
+         */
     }
 
 }
