@@ -67,9 +67,10 @@ public class OnlinePizzaShop {
                 myScan.nextInt();
 
             }
-            if(number > 0 || number < arrayPizza.length) {
+            if(number > 0 && number < arrayPizza.length) {
 
-                PizzaChoice.choosePizza(number).prepare();
+                PizzaChoice.choosePizza(number).prepare();  // Где твой класс
+                // PizzaChoice ???
                 PizzaChoice.choosePizza(number).bake();
                 PizzaChoice.choosePizza(number).pack();
                 break;
