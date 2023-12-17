@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-<<<<<<< HEAD
       <module fileurl="file://$PROJECT_DIR$/src/Homework/Homework.iml" filepath="$PROJECT_DIR$/src/Homework/Homework.iml" />
       <module fileurl="file://$PROJECT_DIR$/src/Homework_18/Homework_18.iml" filepath="$PROJECT_DIR$/src/Homework_18/Homework_18.iml" />
       <module fileurl="file://$PROJECT_DIR$/src/Homework_19/Homework_19.iml" filepath="$PROJECT_DIR$/src/Homework_19/Homework_19.iml" />
@@ -12,9 +11,6 @@
       <module fileurl="file://$PROJECT_DIR$/src/Homework_23/Homework_23.iml" filepath="$PROJECT_DIR$/src/Homework_23/Homework_23.iml" />
       <module fileurl="file://$PROJECT_DIR$/src/Homework_26/Homework_26.iml" filepath="$PROJECT_DIR$/src/Homework_26/Homework_26.iml" />
       <module fileurl="file://$PROJECT_DIR$/src/Homework_27/Homework_27.iml" filepath="$PROJECT_DIR$/src/Homework_27/Homework_27.iml" />
-=======
-      <module fileurl="file://$PROJECT_DIR$/test _37_1M.iml" filepath="$PROJECT_DIR$/test _37_1M.iml" />
->>>>>>> origin/main
     </modules>
   </component>
 </project>
