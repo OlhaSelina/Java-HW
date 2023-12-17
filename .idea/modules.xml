@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/src/Homework/Homework.iml" filepath="$PROJECT_DIR$/src/Homework/Homework.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/Homework_18/Homework_18.iml" filepath="$PROJECT_DIR$/src/Homework_18/Homework_18.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/Homework_19/Homework_19.iml" filepath="$PROJECT_DIR$/src/Homework_19/Homework_19.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/Homework_20/Homework_20.iml" filepath="$PROJECT_DIR$/src/Homework_20/Homework_20.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/Homework_21/Homework_21.iml" filepath="$PROJECT_DIR$/src/Homework_21/Homework_21.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/Homework_22/Homework_22.iml" filepath="$PROJECT_DIR$/src/Homework_22/Homework_22.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/Homework_23/Homework_23.iml" filepath="$PROJECT_DIR$/src/Homework_23/Homework_23.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/Homework_26/Homework_26.iml" filepath="$PROJECT_DIR$/src/Homework_26/Homework_26.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/Homework_27/Homework_27.iml" filepath="$PROJECT_DIR$/src/Homework_27/Homework_27.iml" />
+    </modules>
+  </component>
+</project>
