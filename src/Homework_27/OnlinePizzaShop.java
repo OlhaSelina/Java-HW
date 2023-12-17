@@ -69,7 +69,8 @@ public class OnlinePizzaShop {
             }
             if(number >= 1 || number <= arrayPizza.length) {
 
-                PizzaChoice.choosePizza(number).prepare();
+                PizzaChoice.choosePizza(number).prepare();  // Где твой класс
+                // PizzaChoice ???
                 PizzaChoice.choosePizza(number).bake();
                 PizzaChoice.choosePizza(number).pack();
                 break;
