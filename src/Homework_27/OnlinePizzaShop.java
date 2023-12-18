@@ -52,7 +52,7 @@ public class OnlinePizzaShop {
         System.out.print("Please select the pizza you want: ");
 
         int number;
-        while (true){
+        while (true) {
 
             while (!myScan.hasNextInt()) {
                 System.err.print("You entered a non-numeric value. Try again. " + " ");
@@ -61,23 +61,23 @@ public class OnlinePizzaShop {
 
             number = myScan.nextInt();
 
-            
-                if (number < 1 || number > arrayPizza.length) {
-                    System.err.print("This is not the correct number. Try again. ");
-                } else {
-                    break;
-                }
+
+            if (number < 1 || number > arrayPizza.length) {
+                System.err.print("This is not the correct number. Try again. ");
+            } else {
+                break;
             }
+        }
 
 
-            myScan.close();
+        myScan.close();
 
-                if(number > 0 && number < arrayPizza.length){
+        if (number > 0 && number < arrayPizza.length) {
 
-                    PizzaChoice.choosePizza(number).prepare();
-                    PizzaChoice.choosePizza(number).bake();
-                    PizzaChoice.choosePizza(number).pack();
-                }
+            PizzaChoice.choosePizza(number).prepare();
+            PizzaChoice.choosePizza(number).bake();
+            PizzaChoice.choosePizza(number).pack();
+        }
 
     }
 }
