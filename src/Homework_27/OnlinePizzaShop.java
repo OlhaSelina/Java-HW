@@ -61,7 +61,7 @@ public class OnlinePizzaShop {
 
             number = myScan.nextInt();
 
-            while (myScan.hasNextInt()) {
+            
                 if (number < 1 || number > arrayPizza.length) {
                     System.err.print("This is not the correct number. Try again. ");
                 } else {
@@ -79,6 +79,5 @@ public class OnlinePizzaShop {
                     PizzaChoice.choosePizza(number).pack();
                 }
 
-        }
     }
 }
