@@ -85,7 +85,7 @@ public class OnlinePizzaShop {
                 // Попробуй разобраться, что и как работает.
             }
         }
-        myScan.close(); // TEST
+        myScan.close(); // TEST2
 
  /* НИЖЕ ТВОЙ КОД С ОШИБКАМИ, ПОСТОРАЙСЯ РАЗОБРАТЬСЯ В ПРОБЛЕМЕ
 
