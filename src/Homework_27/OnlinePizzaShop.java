@@ -104,12 +104,9 @@ public class OnlinePizzaShop {
 
         */
 
-        if(number > 0 && number <= arrayPizza.length) {
-
-            PizzaChoice.choosePizza(number).prepare();  // Теперь ОК
-            PizzaChoice.choosePizza(number).bake();
-            PizzaChoice.choosePizza(number).pack();
-        }
+        PizzaChoice.choosePizza(number).prepare();  // Теперь ОК
+        PizzaChoice.choosePizza(number).bake();
+        PizzaChoice.choosePizza(number).pack();
     }
 }
 
