@@ -101,7 +101,8 @@ public class OnlinePizzaShop {
                 System.err.print("This is not the correct number. Try again. ");
                 myScan.nextInt();
             }
-*/
+
+        */
 
         if(number > 0 && number <= arrayPizza.length) {
 
