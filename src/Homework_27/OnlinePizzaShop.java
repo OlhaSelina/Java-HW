@@ -85,7 +85,7 @@ public class OnlinePizzaShop {
                 // Попробуй разобраться, что и как работает.
             }
         }
-        myScan.close();
+        myScan.close(); // TEST2
 
  /* НИЖЕ ТВОЙ КОД С ОШИБКАМИ, ПОСТОРАЙСЯ РАЗОБРАТЬСЯ В ПРОБЛЕМЕ
 
@@ -103,7 +103,7 @@ public class OnlinePizzaShop {
             }
 */
 
-        if(number > 0 && number < arrayPizza.length) {
+        if(number > 0 && number <= arrayPizza.length) {
 
             PizzaChoice.choosePizza(number).prepare();  // Теперь ОК
             PizzaChoice.choosePizza(number).bake();
