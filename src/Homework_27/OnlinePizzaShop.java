@@ -72,12 +72,12 @@ public class OnlinePizzaShop {
 
         myScan.close();
 
-        if (number > 0 && number < arrayPizza.length) {
+
 
             PizzaChoice.choosePizza(number).prepare();
             PizzaChoice.choosePizza(number).bake();
             PizzaChoice.choosePizza(number).pack();
-        }
+
 
     }
 }
