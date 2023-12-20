@@ -1,41 +1,17 @@
-import java.util.Scanner;
-
 // Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
 // then press Enter. You can now see whitespace characters in your code.
 public class Main {
     public static void main(String[] args) {
-        // if and else  - если выполнется первое условие, то дальше проверка не пойдет и это экономит ресурсы
-        Scanner Scan = new Scanner(System.in);
-        System.out.println(" Enter number");
-        int num2 = Scan.nextInt();
+        // Press Alt+Enter with your caret at the highlighted text to see how
+        // IntelliJ IDEA suggests fixing it.
+        System.out.printf("Hello and welcome!");
 
-        if (num2 < 0){
-            System.out.println("Number is negative");
-        }
-        else if (num2 > 0){
-            System.out.println("Number is positive");
-        }
-        else {
-            System.out.println("Number is zero");
-        }
+        // Press Shift+F10 or click the green arrow button in the gutter to run the code.
+        for (int i = 1; i <= 5; i++) {
 
-        /* 2 вариант
-
-        if - только он  и тут будут проверены все три случая и это перегружает программу.
-
-        if (num2 < 0){
-            System.out.println("Number is negative");
+            // Press Shift+F9 to start debugging your code. We have set one breakpoint
+            // for you, but you can always add more by pressing Ctrl+F8.
+            System.out.println("i = " + i);
         }
-        if (num2 > 0){
-            System.out.println("Number is positive");
-        }
-        if (num2 = 0) {
-            System.out.println("Number is zero");
-        }
-
-         */
-        Scan.close();
-
     }
 }
-
